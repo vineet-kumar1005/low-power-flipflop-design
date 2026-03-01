@@ -32,7 +32,7 @@ This work investigates:
 
 ### 1. Conventional CMOS D Flip-Flop
 
-![Conventional DFF](images/cadence/conventional_dff_schematic.png)
+![Conventional DFF](images/cadence/90nm/conventional_dff_schematic.png)
 
 Baseline master–slave CMOS implementation used as reference for comparison.
 
@@ -40,7 +40,7 @@ Baseline master–slave CMOS implementation used as reference for comparison.
 
 ### 2. Clock-Gated D Flip-Flop
 
-![Clock Gated DFF](images/cadence/clock_gated_dff_schematic.png)
+![Clock Gated DFF](images/cadence/90nm/clock_gated_dff_schematic.png)
 
 Introduces OR-gated clock control using an enable signal to suppress unnecessary switching during idle cycles.
 
@@ -48,7 +48,7 @@ Introduces OR-gated clock control using an enable signal to suppress unnecessary
 
 ### 3. Transmission-Gate Clock-Gated D Flip-Flop
 
-![TG DFF](images/cadence/tg_dff_schematic.png)
+![TG DFF](images/cadence/90nm/tg_dff_schematic.png)
 
 Combines:
 
@@ -61,7 +61,7 @@ This hybrid structure minimizes internal switching activity and short-circuit cu
 
 ### 4. 4-bit Serial-In Parallel-Out (SIPO) Shift Register
 
-![SIPO](images/cadence/sipo_4bit.png)
+![SIPO](images/cadence/90nm/sipo_4bit.png)
 
 Demonstrates scalability of the proposed flip-flop architecture in sequential systems.
 
